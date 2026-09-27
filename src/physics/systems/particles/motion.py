@@ -2,7 +2,7 @@ import numpy as np
 import numpy.typing as npt
 
 
-class ParticleMotion:
+class Motion:
     def __init__(self, g: float, q: float, m: float, N: int):
         self.g = g
         self.q = q
